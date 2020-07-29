@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{Menu}}</title>
+    {% load static %}
+    <!-- Bootstrap -->
+    <link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+</head>
+
+<body>
+    <button class="btn btn-danger">bootstrap</button>
+    <h1>{{Menu}}</h1>
+    <ul>
+        <l1><a href='/'>{{ Menu}}</a></l1>
+        <l1><a href='/acerca'>{{ Acerca }}</a></l1>
+        <l1><a href='/listarcontacto'>{{ Contacto }}</a></l1>
+    </ul>
+</body>
+
+</html>
